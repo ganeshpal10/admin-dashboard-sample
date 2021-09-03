@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/856705c0ee.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <title>DashBoard</title>
+</head>
+<body>
+    <div class="containers">
+        <div class="right-container">
+            <nav>
+                <div><i class="fas fa-vector-square"></i><p>Lorem</p></div>
+                <div><i class="fab fa-elementor"></i><p>Event</p></div>
+                <div class="active"><i class="fas fa-users"></i><p>Teams</p></div>
+                <div><i class="fas fa-chart-line"></i><p>Analytics</p></div>
+                <div><i class="fas fa-envelope-open-text"></i><p>Results</p></div>
+            </nav>
+        </div>
+        
+        <div class="main-container">
+            <div class="fixed-container">
+                <div class="dashboard-header">
+                    <div class="icon">
+                        <i class="fas fa-align-left"></i>
+                    </div>
+                    <p>Admin Dashboard</p>
+                </div>
+                <div class="preview-container">
+                    <p class="preview">Preview on :</p>
+                    <div class="mobile"><i class="fa fa-mobile"></i></div>
+                    <div class="computer"><i class="fa fa-laptop"></i></div>
+                </div>
+            </div>
+            <div class="subContainer">
+                <div class="eventSettings">
+                        <header>Event Settings</header>
+                        <ul class="menu-items">
+                            <li>General</li>
+                            <li>Privacy</li>
+                            <li class="active">Features</li>
+                            <li>Customization</li>
+                            <li>Integration</li>
+                            <li>Session Settings &nbsp;<i class="fas fa-lock"></i></li>
+                            <li>My plans</li>
+                        </ul>
+                </div>
+                <div class="close"><i class="far fa-times-circle"></i></div>
+                <div class="save-button">
+                    <button>Save</button>
+                </div>
+                <div class="main-content">
+                    <div class="content-header">
+                        <header>
+                            <div class="chat-container-header">
+                                <i class="far fa-comments"></i>
+                            </div>
+                            Audience Q&A
+                        </header>
+                        <div class="buttons-container">
+                            <div class="switch-buttons">
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                                </div>
+                            </div>
+                            <div class="arrow-container">
+                                <i class="fas fa-chevron-up"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-container">
+                        <div class="similar">
+                            <div class="innerdiv moderation">
+                               <h5>Moderation</h5>
+                                <p>Easily review all questions before they go live</p>
+                            </div>
+                            <div class="switch-buttons">
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" id="flexSwitchCheck">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="similar">
+                            <div class="innerdiv labels">
+                                <h5>Labels</h5>
+                                <p>Categories and filter questions</p>
+                            </div>
+                            <div class="switch-buttons">
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" id="flexSwitchCheck">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="similar">
+                            <div class="innerdiv downvotes">    
+                                <h5>Downvotes</h5>
+                                <p>Enable downvoting of questions</p>
+                            </div>
+                            <div class="switch-buttons">
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" id="flexSwitchCheck">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="similar">
+                            <div class="innerdiv maximum-question">
+                                <h5>Maxium question length</h5>
+                                <p>Show number of votes instead of percentage</p>
+                                <div class="small-buttons-container">
+                                    <button class="first-button">160</button>
+                                    <button class="second-button">240</button>
+                                    <button class="third-button active">300</button>
+                                </div>
+                            </div>
+                            <div class="switch-buttons">
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" id="flexSwitchCheck">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="similar">
+                            <div class="innerdiv close-questions">
+                                <h5>Close questions</h5>
+                                <p>Prevent the participants from sending new questions to your event</p>
+                            </div>
+                            <div class="switch-buttons">
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" id="flexSwitchCheck">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="audience-header"><i class="far fa-comments"></i>Audience Q&A 
+                
+            </div> -->
+        </div>
+        <div class="left-container">
+            <nav>
+                <div class="profile"><img src="./image.jpg" alt="image" ></div>
+                <div class="bell"><i class="fa fa-bell"><div class="dot-icon"></div></i></div>
+                <div class="chat"><i class="fa fa-comments"><div class="dot-icon"></div></i></div>
+                <div class="settings"><i class="fa fa-cog"></i></div>
+            </nav>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
+
+
+ 
+
+
+<!-- <div class="switch-buttons">
+    <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+        <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+    </div>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+        <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
+      </div>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDisabled" disabled>
+        <label class="form-check-label" for="flexSwitchCheckDisabled">Disabled switch checkbox input</label>
+      </div>
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" id="flexSwitchCheckCheckedDisabled" checked disabled>
+        <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Disabled checked switch checkbox input</label>
+      </div>
+</div> -->
+
+
+<!-- close <i class="far fa-times-circle"></i> -->
